@@ -1,4 +1,5 @@
 1155211614
+training is done in colab
 
 2. Train the Shakespeare Character-level Model(first five lines)
 And think you would to your servanted bober and magriant
