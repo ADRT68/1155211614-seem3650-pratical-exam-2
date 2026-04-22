@@ -8,7 +8,7 @@ Your proof your blood lind, and even we sent,
 A latient drov the countreat and of a moself:
 
 Step 3.3: Report the lowest validation loss you achieved.
-i used Remainder 2: Layers = 7, Heads ∈ {2, 3, 5, 7},max iteration 500 due to slow pc,Adjusted 384 embd slightly to ensure divisibility by 5/7 head,to produce the results
+i used Remainder 2: Layers = 7, Heads ∈ {2, 3, 5, 7},max iteration 500 due to slow pc,Adjusted 384 embd slightly to ensure divisibility by 5/7 head,to produce the results losses = [1.7614, 1.7355, 1.7241, 1.7200] 
 the lowest validation loss I achieved is 1.7200,from,500 iterations,7 Layers, 7 Heads
 the code for plot is 
 
@@ -29,3 +29,5 @@ os.makedirs('figures', exist_ok=True)
 plt.savefig('figures/loss_plot.png')
 plt.show()
 <img width="859" height="552" alt="image" src="https://github.com/user-attachments/assets/947f28bf-ed25-4b45-87b2-cbf7e2c31a3c" />
+
+4. Training BabyGPT for Code Generation.
